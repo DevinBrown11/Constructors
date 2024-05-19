@@ -22,28 +22,19 @@
 
 
 
-// 1. Create a main method and a Dog class in the other file. Identify 2 characteristics of a dog and store the values in a class. 
-// Store the fields in a Constructor Method and Call that field to be printed in the main method and create a new object
-//public class Constructors {
- // public static void main(String[] args) {
-  //  Dog myDog1 = new Dog("Buddy", 4);
-  //  System.out.println(myDog1.name + " is "+ myDog1.age);
 
- // }
-//}
+//1. Now set parameters for the constructor method and set both field on the object and parameters to same value so you can store the value in the Parameter from the main method.
+public class Constructors {
+  public static void main(String[] args) {
+    Dog myDog = new Dog("Devin",4);
+    System.out.println(myDog.name + " " + myDog.age);
+  }
+}
 
-//2. Now set parameters for the constructor method and set both field on the object and parameters to same value so you can store the value in the Parameter from the main method.
-//public class Constructors {
- // public static void main(String[] args) {
- //   Dog myDog = new Dog("Devin",4);
- //   System.out.println(myDog.name + " " + myDog.age);
-  //}
-//}
-
-//3. Create a Constuctor method that can take more than one parameter and print from main method with a string in between.
-//public class Constructors {
- // public static void main(String[] args) {
-  //  Dog myDog = new Dog("Devin",4);
-  // System.out.println(myDog);
-  //}
-//}
+//2. Create a Constuctor method that can take more than one parameter and print from main method with a string in between.
+public class Constructors {
+ public static void main(String[] args) {
+   Dog myDog = new Dog("Devin",4);
+   System.out.println(myDog);
+  }
+}
